@@ -1,0 +1,144 @@
+			html
+			{
+				height: 100%;
+			}/*End of code for HTML*/
+			
+			.parallax1
+			{
+			/*Image used in parallax*/
+				background-image: url("Leaguelogo.png");
+			/*Height of image*/
+				height: 100%;
+			/*The parallax effect itself*/
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}/*End of code for parallax1*/
+			
+			.center
+			{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}/*End of code for center class*/
+			
+			#leftAlign
+			{
+				text-align: left;
+			}/*End of code for leftAlign ID*/
+
+			body
+			{
+				background-color: black;
+				margin: 0;
+				height: 100%;
+			}/* End of code for body specific formatting*/
+			
+			h1 
+			{
+				color: white;
+				text-align: center;
+				font-family: "Athiti"; 
+				font-size: 120px;
+				background-color: black;
+				margin: 2px;
+			}/* End of code for h1*/
+		
+			h2 
+			{
+				color: white;
+				font-family: helvetica;
+				text-align: center;
+				font-size: 50px;
+			}/*End of code for h2*/
+			
+			h3
+			{
+				color: white;
+				font-family: helvetica;
+				font-size: 40px;
+				text-align: center;
+			}/*End of code for h3*/
+			
+			h4
+			{
+				color: white;
+				font-family: helvetica;
+				font-size: 30px;
+				text-align: center;
+			}/*End of code for h4*/
+			
+			p
+			{
+				font-family: "Mukta Mahee";
+				font-size: 20px; 
+				text-align: center;
+				color: white;
+				margin: 5px 40px;
+			}/*End of code for p*/
+			
+			table
+			{
+				width: 100%;
+				border: 1px solid white;
+				border-collapse: collapse;
+			}/*End of code for table*/
+			
+			th
+			{
+				color: white;
+				font-size: 40px;
+				text-align: center;
+				margin: 5px;
+				font-family: helvetica;
+				border: 1px solid white;
+			}/*End of code for table headings*/		
+			
+			td
+			{
+				color: white;
+				font-size: 25px;
+				text-align: center;
+				margin: 5px;
+				font-family: "Mukta Mahee";
+				border: 1px solid white;
+			}/*End of code for table data*/
+
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333; /*Slightly dark grey*/
+				position: fixed;
+				top: 0;
+				width: 100%;
+				}/*End of code for ul*/
+
+			li 
+			{
+				float: left;
+			}/*End of code for li*/
+
+			li a 
+			{
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-family: calibri;
+				font-size: 18px;
+			}/*End of code for li a*/
+
+			li a:hover 
+			{
+				background-color: #111; /*Very dark grey*/
+			}/*End of code for hover on list*/
+
+			.active 
+			{
+				background-color: #5BA6F9; /*Light blue*/ 
+			}/*End of code for colour of active link in menu*/
