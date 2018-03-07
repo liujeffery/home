@@ -1,6 +1,6 @@
 			html
 			{
-				height: 100%;
+				height: 100;
 			}/*End of code for HTML*/
 			
 			.parallax1
@@ -8,7 +8,7 @@
 			/*Image used in parallax*/
 				background-image: url("leaguelogo.jpg");
 			/*Height of image*/
-				height: 100%;
+				height: 100;
 			/*The parallax effect itself*/
 				background-attachment: fixed;
 				background-position: center;
@@ -32,7 +32,7 @@
 			{
 				background-color: black;
 				margin: 0;
-				height: 100%;
+				height: 100;
 			}/* End of code for body specific formatting*/
 			
 			h1 
@@ -40,9 +40,9 @@
 				color: white;
 				text-align: center;
 				font-family: "Athiti"; 
-				font-size: 120px;
+				font-size: 120;
 				background-color: black;
-				margin: 2px;
+				margin: 2;
 			}/* End of code for h1*/
 		
 			h2 
@@ -50,14 +50,14 @@
 				color: white;
 				font-family: helvetica;
 				text-align: center;
-				font-size: 50px;
+				font-size: 50;
 			}/*End of code for h2*/
 			
 			h3
 			{
 				color: white;
 				font-family: helvetica;
-				font-size: 40px;
+				font-size: 40;
 				text-align: center;
 			}/*End of code for h3*/
 			
@@ -65,22 +65,22 @@
 			{
 				color: white;
 				font-family: helvetica;
-				font-size: 30px;
+				font-size: 30;
 				text-align: center;
 			}/*End of code for h4*/
 			
 			p
 			{
 				font-family: "Mukta Mahee";
-				font-size: 20px; 
+				font-size: 20; 
 				text-align: center;
 				color: white;
-				margin: 5px 40px;
+				margin: 5 40;
 			}/*End of code for p*/
 			
 			table
 			{
-				width: 100%;
+				width: 100;
 				border: 1px solid white;
 				border-collapse: collapse;
 			}/*End of code for table*/
@@ -88,21 +88,21 @@
 			th
 			{
 				color: white;
-				font-size: 40px;
+				font-size: 40;
 				text-align: center;
-				margin: 5px;
+				margin: 5;
 				font-family: helvetica;
-				border: 1px solid white;
+				border: 1 solid white;
 			}/*End of code for table headings*/		
 			
 			td
 			{
 				color: white;
-				font-size: 25px;
+				font-size: 25;
 				text-align: center;
-				margin: 5px;
+				margin: 5;
 				font-family: "Mukta Mahee";
-				border: 1px solid white;
+				border: 1 solid white;
 			}/*End of code for table data*/
 
 			ul 
@@ -114,7 +114,7 @@
 				background-color: #333; /*Slightly dark grey*/
 				position: fixed;
 				top: 0;
-				width: 100%;
+				width: 100;
 				}/*End of code for ul*/
 
 			li 
@@ -127,10 +127,10 @@
 				display: block;
 				color: white;
 				text-align: center;
-				padding: 14px 16px;
+				padding: 14 16;
 				text-decoration: none;
 				font-family: calibri;
-				font-size: 18px;
+				font-size: 18;
 			}/*End of code for li a*/
 
 			li a:hover 
